@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up</title>
+</head>
+<body>
+    <h1>Hi, Welcome to the page</h1>
+    <p>Today is {{ day_of_week_str }}</p>
+</body>
+
+<form action="/submit" method="POST">
+    <label for = "name">Name</label>
+    <input type="text" name="name" id = "name" placeholder="Enter Name">
+<br>
+    <!-- <label for ="email">Email Id</label>
+    <input type="email" name = "email" id = "email" placeholder="Enter Email">
+    <br> -->
+
+    <label for ="password">Password</label>
+    <input type="password" name = "password" id = "password" placeholder="Enter Password">
+    <br>
+
+    
+
+
+    <button type="submit">Submit</button>
+  </form>
+<style>
+    body{
+        background-color: white;
+    }
+    h1,p{
+        text-align: center;
+        color: black;
+    }
+   
+</style>
+</html>
