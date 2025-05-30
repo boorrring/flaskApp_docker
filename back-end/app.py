@@ -28,7 +28,7 @@ def submit():
 
     collection.insert_one(form_data)
 
-    return 'Submitted successfully'
+    return 'Main successfully'
 
 @app.route('/view')
 def view():
